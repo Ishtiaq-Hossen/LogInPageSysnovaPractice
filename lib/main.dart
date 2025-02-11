@@ -3,6 +3,7 @@ import 'package:log_in_page_sysnova_practice/Dashboard.dart';
 import 'package:log_in_page_sysnova_practice/ReportPage.dart';
 import 'package:log_in_page_sysnova_practice/ScheduleScreen.dart';
 import 'package:log_in_page_sysnova_practice/TourPlanScreen.dart';
+import 'package:log_in_page_sysnova_practice/attendenceScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const DashboardPage(),
+      home: const AttendanceScreen(),
     );
   }
 }
