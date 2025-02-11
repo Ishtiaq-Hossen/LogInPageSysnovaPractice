@@ -12,7 +12,7 @@ class _MySchedulePageState extends State<ScheduleScreen> {
 
   final List<ScheduleItem> scheduleItems = [
     ScheduleItem(
-      tourType: 'Dealer Visit',
+      tourType: 'Deaverser Visit',
       workType: 'Collection',
       date: '21-NOV-2024',
       status: ScheduleStatus.active,
