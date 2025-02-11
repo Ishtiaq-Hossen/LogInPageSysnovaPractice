@@ -47,13 +47,13 @@ class _DailyAttendanceScreenState extends State<AttendanceScreen> {
             height: 200,
             child: GoogleMap(
               initialCameraPosition: const CameraPosition(
-                target: LatLng(23.8103, 90.4125), // Bashundhara City coordinates
+                target: LatLng(23.7385, 90.3782), // Kazi Farm lat lon
                 zoom: 15,
               ),
               markers: {
                 const Marker(
-                  markerId: MarkerId('current_location'),
-                  position: LatLng(23.8103, 90.4125),
+                  markerId: MarkerId('Kazi Farms'),
+                  position: LatLng(23.7385, 90.3782),
                 ),
               },
               zoomControlsEnabled: true,
